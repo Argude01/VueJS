@@ -1,6 +1,5 @@
 <template>
   <div class="container bootstrap snippets bootdey">
-    <!-- BUG: Does not validate correct answer -->
     <div
       v-for="(question, index) in questionsList"
       :key="index"
@@ -9,13 +8,11 @@
       <div class="col-md-12">
         <div class="widget lazur-bg p-xl">
           <h2>{{ index }} - {{ question.question }}</h2>
-          <!-- FIXME: Concatenate correct and incorrect answer in a sorted array -->
           <ul
             v-for="(answer, index2) in [...question.incorrect_answers, question.correct_answer].sort()"
             :key="index2"
             class="list-unstyled m-t-md"
           >
-            <!-- TODO: Validate correct answerf -->
             <li>
               <span class="fa fa-envelope m-r-xs" />
               <label>Option {{ index2 }}:  {{ answer }}</label>
