@@ -1,6 +1,8 @@
 <template>
   <div>
     <Navbar />
+    <Header />
+    <QuestionsList />
   </div>
 </template>
 
