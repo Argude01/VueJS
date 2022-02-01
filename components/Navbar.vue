@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
-      <h5 class="my-0 mr-md-auto font-weight-normal">Trivia Game</h5>
+      <h5 class="my-0 mr-md-auto font-weight-normal">
+        Trivia Game
+      </h5>
       <nav class="my-2 my-md-0 mr-md-3">
         <a href="#" class="p-2 text-dark">Let's Play!</a>
         <a href="#" class="p-2 text-dark">Raking</a>
@@ -10,20 +12,159 @@
       </nav>
       <a href="" class="btn btn-outline-primary">Sign Up</a>
     </div>
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a href="#" class="navbar-brand">Trivia Game</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb">
-        <span class="navbar-toggler-icon" />
-      </button>
-      <div class="collapse navbar-collapse">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="">Play</a>
-          <a class="nav-link" href="">Raking</a>
-          <a class="nav-link" href="">Multiplayer</a>
-          <a class="nav-link" href="">Rules</a>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">
+        Have fun!
+      </h1>
+      <p class="lead">
+        Select the correct answer, you have only three attemps.
+        Don't give up!
+      </p>
+    </div>
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">
+              Attemp 1
+            </h4>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">
+              +20
+              <small class="text-muted">coins</small>
+            </h2>
+            <h1 class="text-muted">
+              ¿..................... Question .....................?
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Answer 1</li>
+              <li>Answer 2</li>
+              <li>Answer 3</li>
+              <li>Answer 4</li>
+            </ul>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    1
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    2
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    3
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    4
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">
+              Attemp 1
+            </h4>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">
+              +20
+              <small class="text-muted">coins</small>
+            </h2>
+            <h1 class="text-muted">
+              ¿..................... Question .....................?
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Answer 1</li>
+              <li>Answer 2</li>
+              <li>Answer 3</li>
+              <li>Answer 4</li>
+            </ul>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    1
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    2
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    3
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    4
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">
+              Attemp 1
+            </h4>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">
+              +20
+              <small class="text-muted">coins</small>
+            </h2>
+            <h1 class="text-muted">
+              ¿..................... Question .....................?
+            </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Answer 1</li>
+              <li>Answer 2</li>
+              <li>Answer 3</li>
+              <li>Answer 4</li>
+            </ul>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    1
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    2
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    3
+                  </button>
+                </div>
+                <div class="col-sm">
+                  <button type="button" class="btn btn-sm btn-block btn-outline-primary">
+                    4
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav> -->
+    </div>
   </div>
 </template>
 
